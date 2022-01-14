@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - karma > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2022-01-13T14:09:31.728Z'
+  'npm:hoek:20180212':
+    - codecov > request > hawk > hoek:
+        patched: '2022-01-13T14:09:31.728Z'
+    - coveralls > request > hawk > hoek:
+        patched: '2022-01-13T14:09:31.728Z'
+    - codecov > request > hawk > boom > hoek:
+        patched: '2022-01-13T14:09:31.728Z'
+    - coveralls > request > hawk > boom > hoek:
+        patched: '2022-01-13T14:09:31.728Z'
+    - codecov > request > hawk > sntp > hoek:
+        patched: '2022-01-13T14:09:31.728Z'
+    - coveralls > request > hawk > sntp > hoek:
+        patched: '2022-01-13T14:09:31.728Z'
+    - codecov > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-01-13T14:09:31.728Z'
+    - coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-01-13T14:09:31.728Z'
+  'npm:ms:20170412':
+    - karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2022-01-13T14:09:31.728Z'
+  'npm:tunnel-agent:20170305':
+    - codecov > request > tunnel-agent:
+        patched: '2022-01-13T14:09:31.728Z'
+    - coveralls > request > tunnel-agent:
+        patched: '2022-01-13T14:09:31.728Z'
